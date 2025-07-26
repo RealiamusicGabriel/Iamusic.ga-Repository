@@ -1,15 +1,11 @@
-import { defineConfig } from "astro/config";
+// @ts-check
+import { defineConfig } from 'astro/config';
 
-import tailwind from "@astrojs/tailwind";
-import vercel from "@astrojs/vercel/serverless";
+import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [tailwind()],
-	output: "server",
-	adapter: vercel({
-		webAnalytics: {
-			enabled: true,
-		},
-	}),
+  vite: {
+    plugins: [tailwindcss()]
+  }
 });

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+	--color-base-100: #242424;
+	--color-white: #fdf5ee;
+	--color-blue: #3445ed;
+	--color-yellow: #ffe62c;
+	--color-pink: #ec43ae;
+	--color-orange: #fb5238;
+	--color-red: #ea6c5e;
+	--color-yellow2: #f4bf53;
+	--color-green: #5fc55a;
+	--font-pixelify: "Pixelify Sans", sans-serif;
+}
