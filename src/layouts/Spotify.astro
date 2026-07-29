@@ -10,8 +10,8 @@ import Playing from "../images/gui/playing.gif";
 import Note from "../images/gui/note.gif";
 import "dotenv/config";
 import QueryString from "query-string";
-const refresh_token = process.env.REFRESH_TOKEN;
-const basic = process.env.BASIC;
+const refresh_token = import.meta.env.REFRESH_TOKEN;
+const basic = import.meta.env.BASIC;
 const getAccessToken = async () => {
 	const url = "https://accounts.spotify.com/api/token";
 	const payload = {

@@ -1,6 +1,6 @@
 ---
-title: " Let's Go Somewhere Else"
-type: "Short Film"
+title: " Let's Go Somewhere Else (2025)"
+type: "Sound Recordist"
 date: "January, 2025"
 image: "https://i.imgur.com/vFcyVSu.png"
 link: "https://www.facebook.com/puregold.shopping/videos/1729864770904217"
